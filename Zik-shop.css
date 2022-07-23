@@ -215,6 +215,9 @@ section{
     background-color: var(--items-color-);
    
 }
+.text1 span{
+    color: rgb(26, 26, 124);
+}
 
 .Zs b{
     border: 3px solid var(--background-color-);
@@ -230,9 +233,13 @@ section{
 .text2{
     padding-top: 0.4rem;
     font-family:'Playfair Display';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
    
     background-color:  var(--items-color-);
+}
+.text2 b{
+    color: rgb(26, 26, 124);
+
 }
 @media (max-width:915px){
     .text2{
@@ -369,8 +376,8 @@ span{
 
 .arrow-left:hover,
 .arrow-right:hover{
-    background-color: var(--background-color-);
-    padding: 0.5rem;
+    background-color:none;
+    padding: 0.8rem;
 
 }
 
@@ -507,3 +514,4 @@ footer li a:hover{
     
     
 }
+
