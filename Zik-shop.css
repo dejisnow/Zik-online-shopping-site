@@ -216,7 +216,7 @@ section{
    
 }
 .text1 span{
-    color: rgb(26, 26, 124);
+    color:orange;
 }
 
 .Zs b{
@@ -238,7 +238,7 @@ section{
     background-color:  var(--items-color-);
 }
 .text2 b{
-    color: rgb(26, 26, 124);
+    color:orange;
 
 }
 @media (max-width:915px){
@@ -249,9 +249,7 @@ section{
 }
 
 
-span{
-    color:rgb(10, 252, 10)
-}
+
 /* Section1 */
 .section1{
     background-color:var(--items-color-);
@@ -342,7 +340,7 @@ span{
 .sec2-items a{
    border: 3px solid ;
    border-color: transparent;
-  border-top-color: var(--items-color-);
+  border-top-color: orange;
 }
 /* Section 3 */
 .section3{
@@ -509,8 +507,10 @@ footer li a:hover{
 }
 .next a{
     text-decoration: none;
+    font-weight: 700;
     margin-top: 0.2rem;
     margin-right: 1.5rem;
+    color:orange;
     
     
 }
