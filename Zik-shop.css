@@ -216,7 +216,7 @@ section{
    
 }
 .text1 span{
-    color:orange;
+    color:rgb(114, 76, 6);
 }
 
 .Zs b{
@@ -238,7 +238,7 @@ section{
     background-color:  var(--items-color-);
 }
 .text2 b{
-    color:orange;
+    color:rgb(114, 76, 6);
 
 }
 @media (max-width:915px){
@@ -340,7 +340,7 @@ section{
 .sec2-items a{
    border: 3px solid ;
    border-color: transparent;
-  border-top-color: orange;
+  border-top-color:rgb(114, 76, 6);
 }
 /* Section 3 */
 .section3{
@@ -510,7 +510,7 @@ footer li a:hover{
     font-weight: 700;
     margin-top: 0.2rem;
     margin-right: 1.5rem;
-    color:orange;
+    color:rgb(114, 76, 6);
     
     
 }
