@@ -5,16 +5,16 @@
     font-family:'Playfair Display';
 }
 :root{
-    --background-color-:rgb(172, 159, 245);
-    --items-color-:rgb(160, 131, 212);
-    --btn-hover:aqua;
+    --background-color-:#d4afb9;
+    --items-color-:#f7d9c4;
+    --btn-hover:#faedcb;
     
 }
 /* Body */
 body{
    
     padding: 0.5rem;
-    height: 125vh;
+    height: 200vh;
     display: grid;
     background-color:var(--background-color-);
   
@@ -210,7 +210,7 @@ section{
     
    
     font-family:'Playfair Display';
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: 300;
     background-color: var(--items-color-);
    
@@ -233,7 +233,8 @@ section{
 .text2{
     padding-top: 0.4rem;
     font-family:'Playfair Display';
-    font-size: 1.7rem;
+    font-size: 2.7rem;
+    font-weight: 600;
    
     background-color:  var(--items-color-);
 }
@@ -272,7 +273,7 @@ section{
 
 }
 .section2 div a:hover{
-   color: aqua;
+   color:var(--btn-hover);
 
 }
 /* Learn */
@@ -288,7 +289,7 @@ section{
    
 }
 .Learn:hover{
-    background-color:aqua ;
+    background-color:var(--btn-hover) ;
 }
 /* Find */
 .Find{
@@ -302,7 +303,7 @@ section{
     
 }
 .Find:hover{
-    background-color:aqua ;
+    background-color:var(--btn-hover);
 }
 
 /* View */
@@ -323,7 +324,7 @@ section{
 }
 }
 .View:hover{
-    background-color:aqua;
+    background-color:var(--btn-hover);
 }
 /* Section2 */
 .section2{
@@ -460,14 +461,12 @@ img:hover{
     text-decoration: none;
     color: green;
   
-  
 }
  
 .cart{
     margin: 0; 
     
 }
-
 
 /* Item 3 info */
 .item-1-info,.item-2-info,.item-3-info{
